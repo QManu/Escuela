@@ -1,11 +1,10 @@
 {
-    "version": 2,
-    "routes": [
-      
-      {  
-      "destination": "/proyecto/src/index.js"
+  "version": 2,
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/proyecto/src/index.js"
     }
-    ],
-    "public": true
-  }
-  
+  ],
+  "public": true
+}
