@@ -4,4 +4,3 @@
     { "src": "/(.*)", "dest": "/proyecto/src/index.js" }
   ]
 }
- 
