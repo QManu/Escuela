@@ -1,8 +1,5 @@
 {
   "version": 2,
-  "build": {
-    "output": "public"
-  },
   "routes": [
     { "src": "/(.*)", "dest": "/proyecto/src/index.js" }
   ]
