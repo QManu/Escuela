@@ -1,11 +1,14 @@
 {
     "version": 2,
     "builds": [
-      { "src": "index.js", "use": "@vercel/node" }
+      {
+        "src": "index.js",
+        "use": "@vercel/node"
+      }
     ],
     "routes": [
       { "src": "/(.*)", "dest": "/index.js" }
     ],
-    "public": "./ruta/de/tu/directorio/publico"
+    "public": true
   }
   
