@@ -52,7 +52,7 @@ router.post("/profesores/agregar", agregarProfesor);
 
 router.get("/profesores/agregar", async (req, res) => {
   const profesor = await Profesor.find().lean();
-  res.render("agregarProfesores", { profesor: profesor });
+  res.render("agregarProfesores", { profesor: profesor }); 
 });
 
 router.get("/update2/:id", renderEditProfesor);

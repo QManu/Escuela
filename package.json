@@ -7,10 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon src/index.js --exec babel-node",
     "build": "babel src -d proyecto && ncp src/views proyecto/views && ncp src/frontend proyecto/frontend",
-    "start": "node protyecto/index.js"
+    "start": "node proyecto/index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Tu nombre aquí",
   "license": "ISC",
   "dependencies": {
     "@babel/plugin-transform-runtime": "^7.21.0",
@@ -19,9 +19,7 @@
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "express-handlebars": "^5.3.4",
-    "git": "^0.1.5",
     "mongoose": "^6.7.3",
-    "mongose": "^0.0.2-security",
     "morgan": "^1.10.0",
     "ncp": "^2.0.0"
   },
