@@ -4,6 +4,6 @@
     "output": "public"
   },
   "routes": [
-    { "src": "/(.*)", "dest": "/index.html" }
+    { "src": "/(.*)", "dest": "/proyecto/src/index.js" }
   ]
 }
